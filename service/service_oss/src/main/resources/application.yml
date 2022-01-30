@@ -1,0 +1,31 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: service-oss
+  profiles:
+    active: dev
+  redis:
+    host: 192.168.94.128
+    port: 6379
+    database: 0
+    timeout: 1800000
+    lettuce:
+      pool:
+        max-idle: 5
+        max-active: 20
+        max-wait: -1
+        min-idle: 0
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+aliyun:
+  oss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    bucket-name: kly9510
+    access-key-id: LTAI5t9KHv7yFzjKcFkkpdM6
+    access-key-secret: 6dnDw9M2lbFUQwDT1t4r8NVwhFdtiF
+    bucket-domain: kly9510.oss-cn-beijing.aliyuncs.com
