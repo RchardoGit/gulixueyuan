@@ -23,11 +23,11 @@ public class Test11 {
         try{
 
             DefaultAcsClient client = AliyunVodSDKUtils.initVodClient(
-                    "LTAI5tQcgqV6QmpAHCoWaEvw",
-                    "18lGrug3gROP9nILWrl6XAz4AFMqMl");
+                    "***************",
+                    "********************");
 
             DeleteVideoRequest request = new DeleteVideoRequest();
-            request.setVideoIds("f651fb36dcd04453863d33c97ba7e486");
+            request.setVideoIds("****************");
             DeleteVideoResponse response = client.getAcsResponse(request);
             System.out.print("RequestId = " + response.getRequestId() + "\n");
 
