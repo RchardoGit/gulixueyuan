@@ -30,5 +30,5 @@ spring:
 
 aliyun:
   oss:
-    access-key-id: LTAI5tQcgqV6QmpAHCoWaEvw
-    access-key-secret: 18lGrug3gROP9nILWrl6XAz4AFMqMl
+    access-key-id: *****************
+    access-key-secret: *****************
